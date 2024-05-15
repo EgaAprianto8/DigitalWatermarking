@@ -7,7 +7,7 @@ export const contacts = [
   {
     id: 'email',
     Icon: MdEmail,
-    value: 'Steganografi@xxxxx.xx.xx'
+    value: 'UnveilingtheUnseen@xxxxx.xx.xx'
   },
   {
     id: 'phone',
@@ -22,7 +22,7 @@ export const contacts = [
   {
     id: 'instagram',
     Icon: BiLogoInstagramAlt,
-    value: '@steganografi',
+    value: '@UnveilingtheUnseen',
     link: 'https://www.instagram.com/pandupan__'
   },
 ];

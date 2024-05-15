@@ -67,9 +67,9 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-12">
           <div className="flex gap-6 text-lg">
-            <Link href="/home">Home</Link>
-            <Link href="/#project">Project</Link>
             <Link href="/#about">About Us</Link>
+            <Link href="/#watermarking">Algorithm</Link>
+            <Link href="/#project">Project</Link>
             <Link href="/#contact">Contact</Link>
           </div>
         </div>

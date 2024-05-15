@@ -15,7 +15,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col justify-center items-center gap-4 text-center lg:text-left">
-        <div>©Copyright Mosques.online 2021. All Rights Reserved</div>
+        <div>©Copyright Unveiling the Unseen 2024. All Rights Reserved</div>
         <div className="flex justify-center items-center text-theme space-x-8">
           <p>Privacy Policy</p>
           <p>Contact Us</p>
