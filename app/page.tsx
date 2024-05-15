@@ -13,9 +13,9 @@ export default function Home() {
     <HeroSectionLP/>
     <AboutUs/>
     <SelectTheme/>
+    <Project/>
     <ContactUs/>
     <ReceiveNews/>
-    <Project/>
     
    </>
   )
