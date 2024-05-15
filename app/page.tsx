@@ -6,12 +6,13 @@ import Project from '@/components/LandingPage/Project'
 import ReceiveNews from '@/components/LandingPage/ReceiveNews'
 import SelectTheme from '@/components/LandingPage/SelectTheme'
 
+
 export default function Home() {
   return (
    <>
     <HeroSectionLP/>
-    <SelectTheme/> 
     <AboutUs/>
+    <SelectTheme/>
     <ContactUs/>
     <ReceiveNews/>
     <Project/>
