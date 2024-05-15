@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="relative w-[90px] h-[90px]">
           <Link href="/">
             <Image 
-              src="/images/logo.png"
+              src="/images/logoWM.png"
               alt="logo"
               fill={true}
             />
@@ -68,7 +68,7 @@ const Navbar = () => {
         <div className="flex items-center gap-12">
           <div className="flex gap-6 text-lg">
             <Link href="/home">Home</Link>
-            <Link href="/#theme">Themes</Link>
+            <Link href="/#project">Project</Link>
             <Link href="/#about">About Us</Link>
             <Link href="/#contact">Contact</Link>
           </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
           <div className="relative w-[60px] h-[60px]">
             <Link href="/">
               <Image 
-                src="/images/logo.png"
+                src="/images/logoWM.png"
                 alt="logo"
                 fill={true}
               />
