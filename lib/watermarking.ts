@@ -7,7 +7,9 @@ import '../helper/console'
 import { getImageDataFromBuffer, getMeta, getImageBlobUrlFromBlob, getBlobFromImageData } from '../helper/image';
 
 function log(...data: any[]) {
-  if (Reflect.get(window, 'debug')) console.log(...data);
+  if (typeof window !== 'undefined' && Reflect.get(window, 'debug')) {
+    console.log(...data);
+  }
 }
 
 export const status = {

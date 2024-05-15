@@ -6,7 +6,7 @@ import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 const AboutUs = () => {
   return (
-    <section id="about">
+    <section id="about" className="w-full min-h-screen">
       <div className="relative flex px-4 sm:px-10 xl:container flex-col-reverse lg:flex-row justify-center items-center gap-12 pt-16 pb-24 sm:pt-0 sm:pb-0">
 
         <div className="flex flex-col gap-6 sm:gap-4 bg-white z-[1] px-2 sm:px-0">
@@ -34,59 +34,8 @@ const AboutUs = () => {
             >
               <h1 className="text-xl sm:text-2xl tracking-widest uppercase font-bold">Advanced Encryption Standard</h1>
               <p className="sm:text-lg max-w-2xl mt-4 mb-6 text-left sm:text-justify">
-                <span className="text-colorfull-blue font-semibold">AES</span>  Merupakan algoritma kriptografi yang sering digunakan untuk enkripsi dan dekripsi data. <span className="text-blue-500 font-semibold">   Dalam prosesnya, AES mengubah blok data menjadi blok data terenkripsi menggunakan kunci tertentu.</span>Proses enkripsi dan dekripsi melibatkan serangkaian langkah operasi, seperti SubBytes, ShiftRows, MixColumns, dan AddRoundKey. AES telah menjadi standar yang diakui secara internasional dan sering digunakan dalam berbagai aplikasi untuk melindungi data sensitif.
+                <span className="text-colorfull-blue font-semibold">AES</span>  Merupakan algoritma kriptografi yang sering digunakan untuk enkripsi dan dekripsi data. <span className="text-[#1dbbb4] font-semibold">   Dalam prosesnya, AES mengubah blok data menjadi blok data terenkripsi menggunakan kunci tertentu.</span>Proses enkripsi dan dekripsi melibatkan serangkaian langkah operasi, seperti SubBytes, ShiftRows, MixColumns, dan AddRoundKey. AES telah menjadi standar yang diakui secara internasional dan sering digunakan dalam berbagai aplikasi untuk melindungi data sensitif.
               </p>
-              {/* <Disclosure>              
-                {({open}) => (
-                  <>
-                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-base font-medium text-gray-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
-                      <span>Keamanan Tinggi.</span>
-                      <ChevronUpIcon
-                        className={`${
-                          open ? 'rotate-180 transform' : ''
-                        } h-5 w-5 text-blue-500`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-                    AES telah terbukti menjadi algoritma kriptografi yang sangat aman. Berdasarkan desain dan analisis yang ketat, AES memberikan tingkat keamanan yang tinggi terhadap berbagai serangan kriptografi yang diketahui saat ini. Ini termasuk serangan brute-force (mencoba semua kemungkinan kunci secara bergantian), serangan differensial, dan serangan linier. Dengan kata lain, bahkan dengan komputasi canggih, memecahkan enkripsi AES tanpa kunci yang benar menjadi sangat sulit.
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-              <Disclosure as="div" className="mt-2">
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 mb-2 text-left text-base font-medium text-gray-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
-                      <span>Kualitas Visual Gambar</span>
-                      <ChevronUpIcon
-                        className={`${
-                          open ? 'rotate-180 transform' : ''
-                        } h-5 w-5 text-blue-500`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-                    Metode Least Significant Bit (LSB) memungkinkan pengguna akan menyembunyikan pesan dalam gambar tanpa mengurangi kualitas visualnya. Pengguna tetap dapat menikmati gambar dengan jelas dan tanpa gangguan, sementara pesan rahasia tetap tersembunyi dengan aman.
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-              <Disclosure>              
-                {({open}) => (
-                  <>
-                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-base font-medium text-gray-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
-                      <span>Kombinasi Teknologi </span>
-                      <ChevronUpIcon
-                        className={`${
-                          open ? 'rotate-180 transform' : ''
-                        } h-5 w-5 text-blue-500`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-                    Gabungan AES dan LSB membentuk solusi yang kuat dan inovatif untuk menyembunyikan pesan dalam gambar. Dengan menggabungkan keamanan tingkat tinggi dari AES dan efisiensi penyembunyian pesan dari LSB, aplikasi ini menawarkan solusi yang seimbang antara keamanan dan kualitas visual gambar yang optimal.
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure> */}
             </div>
           </div>
         </div>

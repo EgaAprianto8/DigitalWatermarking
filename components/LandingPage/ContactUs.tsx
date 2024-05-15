@@ -12,8 +12,8 @@ const ContactUs = () => {
         <div className="relative border-4 border-[#0C7C95] w-[250px] h-[230px] sm:w-[395px] sm:h-[377px] xl:w-[595px] xl:h-[477px]mt-16">
           <div>
             <div className="absolute -top-5 sm:-top-10 -left-5 sm:-left-10 z-0">
-              <div className="relative aspect-square  w-[250px] h-[230px] sm:w-[395px] sm:h-[377px] xl:w-[595px] xl:h-[477px]">
-                <Image src="/images/mosque3.png" alt="bg-vector" fill={true} />
+              <div className="relative aspect-square image-center  w-[250px] h-[230px] sm:w-[395px] sm:h-[377px] xl:w-[595px] xl:h-[477px]">
+                
               </div>
             </div>
           </div>

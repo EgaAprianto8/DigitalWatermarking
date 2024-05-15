@@ -80,11 +80,20 @@ html {
 }
 
 .bg-hero {
-  background-image: url("https://i.ibb.co/pfKPTGP/HeroLP.png");
+  background-image: url("https://i.ibb.co/kxVZZXj/ki-image-2.jpg");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.image-center {
+  background-image: url("https://i.ibb.co/kc1Q3zv/ki-3.jpg");
+  background-position:50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .bg-hero-hp {
   background-image: url("https://i.ibb.co/2PJRYs8/heroHP.png");
