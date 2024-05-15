@@ -11,7 +11,7 @@ const HeroSectionLP = () => {
         </p>
         <Link href="/#project">
           <button className="bg-[#1DBBB4] w-[154px] h-[48px] rounded-xl mt-4">
-            <a className="place-self-center">See The Project</a>
+            See The Project
           </button>
         </Link>
       </div>

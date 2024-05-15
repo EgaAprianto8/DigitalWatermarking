@@ -19,6 +19,22 @@ module.exports = {
     },
     extend: {
       colors: {
+        colorfull: {
+          blue : {
+            DEFAULT: "#1dbbb4",
+            dark:"#094067"
+          },
+          red:{
+            DEFAULT:"#ef4565"
+          },
+          sky:{
+            DEFAULT:"#d8eefe"
+          },
+          purple: "#DF63F2",
+          yellow: "#F7BD02",
+          green: "#17EE97",
+          
+      },
         theme : {
           DEFAULT : "#1DBBB4",
           secondary : "#0D716C",
